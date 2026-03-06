@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "y-websocket-server"
+    "start": "y-websocket-server --port $PORT --host 0.0.0.0"
   },
   "dependencies": {
     "y-websocket": "^1.5.0"
