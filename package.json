@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@y/websocket-server": "^0.1.5",
+    "y-websocket-server": "^0.1.5",
     "ws": "^8.19.0"
   }
 }
