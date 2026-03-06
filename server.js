@@ -2,7 +2,7 @@ import http from "http";
 import { WebSocketServer } from "ws";
 import { setupWSConnection } from "y-websocket/bin/utils.js";
 
-const port = 1234;
+const port = process.env.PORT || 1234;
 
 const server = http.createServer();
 const wss = new WebSocketServer({ server });

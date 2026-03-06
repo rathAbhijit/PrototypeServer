@@ -1,19 +1,12 @@
 {
   "name": "yjs-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "y-websocket-server --port 1234",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@y/websocket-server": "^0.1.5",
-    "http": "^0.0.1-security",
+    "y-websocket": "^1.5.0",
     "ws": "^8.19.0"
   }
 }
