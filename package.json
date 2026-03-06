@@ -1,4 +1,4 @@
-{
+5{
   "name": "yjs-server",
   "version": "1.0.0",
   "type": "module",
@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "y-websocket": "^1.5.0",
-    "ws": "^8.19.0"
+    "ws": "^8.19.0",
+    "yjs": "^13.6.0"
   }
 }
